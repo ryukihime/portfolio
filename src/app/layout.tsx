@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ryuki | Web Engineer Portfolio",
-  description: "3ヶ月でNext.jsフルスタック開発を習得。技術選定からデプロイの試行錯誤までを公開しているRyukiのポートフォリオです。",
+  description: "4ヶ月でNext.jsフルスタック開発を習得。技術選定からデプロイの試行錯誤までを公開しているRyukiのポートフォリオです。",
 };
 
 export default function RootLayout({
