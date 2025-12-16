@@ -10,7 +10,7 @@ export default function Hero() {
                 </p>
                 <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
                     Next.jsを用いたフルスタック開発に注力しています。<br className="hidden md:block" />
-                    9月の学習開始より、HTML/CSSからモダンなWebスタックまでを集中的に習得。<br className="hidden md:block" />
+                    8月の学習開始より、HTML/CSSからモダンなWebスタックまでを集中的に習得。<br className="hidden md:block" />
                     ライブラリを柔軟に組み合わせ、短期間でプロダクトを形にする実践的な学びを継続しています。
                 </p>
                 <div className="flex justify-center gap-4">
