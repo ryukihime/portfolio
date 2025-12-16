@@ -10,7 +10,7 @@ export default function Projects() {
                     {/* Project Image */}
                     <div className="aspect-video bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700 overflow-hidden group relative">
                         <Image
-                            src="/portfolio/images/minizenn-screenshot.png"
+                            src="/images/minizenn-screenshot.png"
                             alt="miniZenn Project Screenshot"
                             fill
                             className="object-cover transition-transform duration-500 group-hover:scale-105"
