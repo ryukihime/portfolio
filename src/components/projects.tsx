@@ -93,6 +93,9 @@ export default function Projects() {
                         </div>
 
                         <div className="flex gap-4">
+                            <a href="https://github.com/ryukihime/ZZZLP" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
+                                ソースコード
+                            </a>
                             <a href="https://ryukihime.github.io/ZZZLP/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
                                 デモサイト
                             </a>
