@@ -58,18 +58,10 @@ export default function Projects() {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mt-20">
-                    {/* Project Details (Text Last for alternation if desired, or keep generic order. Assuming standard stacking order for now) */}
-                    {/* Let's keep image left, text right for consistency or swap for visual interest. 
-                        The existing layout is Image Left, Text Right. 
-                        Let's try Image Left, Text Right again for consistency unless alternating is requested.
-                        Wait, typically portfolios alternate. 
-                        Let's stick to the same pattern for now based on the previous code block, 
-                        BUT "miniZennの下に連なる形で" implies just adding another row.
-                    */}
                     {/* Project Image */}
                     <div className="aspect-video bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700 overflow-hidden group relative">
                         <Image
-                            src="/images/zzzlp-screenshot.png"
+                            src="/portfolio/images/zzzlp-screenshot.png"
                             alt="ZZZ LP Project Screenshot"
                             fill
                             className="object-cover transition-transform duration-500 group-hover:scale-105"
