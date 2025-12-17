@@ -56,6 +56,57 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
+
+                <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mt-20">
+                    {/* Project Details (Text Last for alternation if desired, or keep generic order. Assuming standard stacking order for now) */}
+                    {/* Let's keep image left, text right for consistency or swap for visual interest. 
+                        The existing layout is Image Left, Text Right. 
+                        Let's try Image Left, Text Right again for consistency unless alternating is requested.
+                        Wait, typically portfolios alternate. 
+                        Let's stick to the same pattern for now based on the previous code block, 
+                        BUT "miniZennの下に連なる形で" implies just adding another row.
+                    */}
+                    {/* Project Image */}
+                    <div className="aspect-video bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700 overflow-hidden group relative">
+                        <Image
+                            src="/images/zzzlp-screenshot.png"
+                            alt="ZZZ LP Project Screenshot"
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                    </div>
+
+                    {/* Project Details */}
+                    <div>
+                        <h3 className="text-2xl font-bold mb-4">Zenless Zone Zero LP (Unofficial)</h3>
+                        <div className="space-y-4 mb-6">
+                            <p className="text-slate-400 leading-relaxed">
+                                自身初となるLP制作プロジェクトです。『ゼンレスゾーンゼロ』をテーマに、
+                                拙いながらも見やすさと「映え」を意識したデザインを追求しました。
+                            </p>
+                            <p className="text-slate-400 leading-relaxed">
+                                画像や動画を効果的に配置し、スライド形式で切り替わる動的な演出も見どころです。
+                            </p>
+                        </div>
+
+                        <div className="mb-6">
+                            <h4 className="text-sm font-semibold text-slate-300 mb-2 uppercase tracking-wider">使用技術</h4>
+                            <div className="flex flex-wrap gap-2">
+                                {['Next.js', 'TypeScript', 'CSS', 'React'].map((tech) => (
+                                    <span key={tech} className="px-3 py-1 bg-slate-800 text-sm rounded-md text-accent border border-slate-700/50">
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="flex gap-4">
+                            <a href="https://ryukihime.github.io/ZZZLP/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
+                                デモサイト
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
