@@ -9,10 +9,10 @@ export default function Skills() {
                         <h3 className="text-xl font-semibold mb-6 text-accent">Frontend</h3>
                         <ul className="space-y-4">
                             {[
-                                { name: 'Next.js / React', desc: 'アプリ開発のメインフレームワーク' },
-                                { name: 'TypeScript', desc: '型安全な開発のために導入' },
-                                { name: 'Zustand', desc: 'シンプルで軽量な状態管理' },
-                                { name: 'Tailwind CSS', desc: '効率的なスタイリング' }
+                                { name: 'Next.js / React', desc: 'フルスタックアプリ開発のメイン' },
+                                { name: 'TypeScript', desc: '型安全な大規模開発に必須' },
+                                { name: 'Tailwind CSS / UI Aesthetics', desc: 'レスポンシブ・グラスモーフィズム等の高度な美観' },
+                                { name: 'Zustand', desc: 'シンプルで軽量な状態管理' }
                             ].map((item) => (
                                 <li key={item.name} className="flex flex-col">
                                     <span className="flex items-center gap-2 font-medium text-slate-200">
@@ -29,9 +29,9 @@ export default function Skills() {
                         <h3 className="text-xl font-semibold mb-6 text-accent">Backend & Tools</h3>
                         <ul className="space-y-4">
                             {[
-                                { name: 'PostgreSQL / Prisma', desc: 'DB設計と操作に使用' },
-                                { name: 'Docker', desc: '開発環境の共通化に使用' },
-                                { name: 'Git / VS Code', desc: '標準的な開発環境' }
+                                { name: 'PostgreSQL / SQLite / Prisma', desc: '要件に応じたDB選定とデータ連携' },
+                                { name: 'Docker', desc: '開発環境のコンテナ化と共通化' },
+                                { name: 'Git / GitHub / VS Code', desc: 'チーム開発を支える標準ツール群' }
                             ].map((item) => (
                                 <li key={item.name} className="flex flex-col">
                                     <span className="flex items-center gap-2 font-medium text-slate-200">
