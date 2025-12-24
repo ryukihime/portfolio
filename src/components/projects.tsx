@@ -142,10 +142,59 @@ export default function Projects() {
                             <a href="https://github.com/ryukihime/skill-simulator" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
                                 ソースコード
                             </a>
+                            <a href="https://ryukihime.github.io/skill-simulator-local/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
+                                デモサイト
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mt-20">
+                    {/* Project Image */}
+                    <div className="aspect-video bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700 overflow-hidden group relative">
+                        <Image
+                            src="/portfolio/images/todolist-screenshot.png"
+                            alt="Todo List Project Screenshot"
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                    </div>
+
+                    {/* Project Details */}
+                    <div>
+                        <h3 className="text-2xl font-bold mb-4">Todo List</h3>
+                        <div className="space-y-4 mb-6">
+                            <p className="text-slate-400 leading-relaxed">
+                                Next.js 15 と React 19 を採用した、モダンなフルスタックTodo管理アプリです。
+                                UI/UXの追求として、「深く落ち着いたネイビーブラック」の背景とカード型デザインによる高い視認性を実現しました。
+                            </p>
+                            <p className="text-slate-400 leading-relaxed">
+                                Prismaを用いたPragmaticなDB設計や、Dockerによるローカルでの迅速な環境構築など、
+                                実運用を意識したバックエンド構成にも注力し、クリーンでメンテナンス性の高いコードベースを構築しています。
+                            </p>
+                        </div>
+
+                        <div className="mb-6">
+                            <h4 className="text-sm font-semibold text-slate-300 mb-2 uppercase tracking-wider">使用技術</h4>
+                            <div className="flex flex-wrap gap-2">
+                                {['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma', 'PostgreSQL', 'Docker'].map((tech) => (
+                                    <span key={tech} className="px-3 py-1 bg-slate-800 text-sm rounded-md text-accent border border-slate-700/50">
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="flex gap-4">
+                            <a href="https://github.com/ryukihime/todolist" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
+                                ソースコード
+                            </a>
+                            <a href="https://ryukihime.github.io/todolist-local/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
+                                デモサイト
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
