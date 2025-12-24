@@ -44,12 +44,12 @@ export default function Projects() {
                         </div>
 
                         <div className="flex gap-4">
-                            <a href="#" className="text-accent hover:underline underline-offset-4">
-                                ソースコード
-                            </a>
-                            <a href="#" className="text-accent hover:underline underline-offset-4">
-                                デモサイト
-                            </a>
+                            <span className="text-slate-500 cursor-not-allowed">
+                                ソースコード (準備中)
+                            </span>
+                            <span className="text-slate-500 cursor-not-allowed">
+                                デモサイト (準備中)
+                            </span>
                             <a href="https://zenn.dev/ryukihime/scraps/27303898fd56c7" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
                                 開発ログ (Zenn)
                             </a>
@@ -96,9 +96,9 @@ export default function Projects() {
                             <a href="https://github.com/ryukihime/ZZZLP" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
                                 ソースコード
                             </a>
-                            <a href="https://ryukihime.github.io/ZZZLP/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4">
-                                デモサイト
-                            </a>
+                            <span className="text-slate-500 cursor-not-allowed">
+                                デモサイト (準備中)
+                            </span>
                         </div>
                     </div>
                 </div>
